@@ -1,6 +1,6 @@
 const express = require("express");
 const { builtinModules } = require("module");
-const { readProducts } = require("./models/products.js");
+const { readProducts } = require("../models/products.js");
 const productRoutes = express.Router();
 
 productRoutes.get("/", async (req, res) => {
